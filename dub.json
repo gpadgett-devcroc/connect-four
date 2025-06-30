@@ -1,0 +1,9 @@
+{
+    "name": "connect-four",
+    "description": "A coding challenge to complete the algorithm which determines if a game of Connect Four is over.",
+    "authors": ["George Padgett"],
+    "copyright": "Copyright © 2025, George Padgett",
+    "license": "GPL-3.0-or-later",
+    "targetType": "none",
+    "subPackages": ["model", "solution", "gtk_app", "terminal_app"]
+}
