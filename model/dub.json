@@ -1,11 +1,15 @@
 {
     "name": "model",
     "description": "The domain model of the connect-four application",
-    "targetType": "library",
-    "configuration": {
-        "targetName": "unit_tests",
-        "targetType": "executable",
-        "preBuildCommands": "echo IMPORT_PATHS=$$IMPORT_PATHS",
-        "preRunCommands": "cd $PACKAGE_DIR ; dub build"
-    }
+    "version": "0.0.1",
+    "configurations": [
+        {
+            "name": "model",
+            "targetType": "library"
+        },
+        {
+            "name": "unit_tests",
+            "targetType": "executable"
+        }    
+    ]
 }

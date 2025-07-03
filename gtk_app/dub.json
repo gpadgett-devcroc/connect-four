@@ -1,5 +1,6 @@
 {
     "name": "gtk_app",
     "description": "The Connect Four graphical user interface application",
+    "version": "0.0.1",
     "targetType": "executable"
 }

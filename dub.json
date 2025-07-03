@@ -4,6 +4,7 @@
     "authors": ["George Padgett"],
     "copyright": "Copyright © 2025, George Padgett",
     "license": "GPL-3.0-or-later",
+    "version": "0.0.1",
     "targetType": "none",
     "subPackages": ["model", "solution", "gtk_app", "terminal_app"]
 }

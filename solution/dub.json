@@ -1,5 +1,9 @@
 {
     "name": "solution",
     "description": "",
-    "targetType": "library"
+    "targetType": "library",
+    "version": "0.0.1",
+    "dependencies": {
+        "connect-four:model": { "version": "*", "importPaths": ["source/"] }
+    }
 }

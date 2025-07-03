@@ -1,5 +1,11 @@
 {
     "name": "terminal_app",
     "description": "Connect Four Terminal App",
-    "targetType": "executable"
+    "targetType": "executable",
+    "targetName": "connect-four",
+    "version": "0.0.1",
+    "dependencies": {
+        "connect-four:model": { "version": "*", "importPaths": ["source/"]  },
+        "connect-four:solution": { "version": "*", "importPaths": ["source/"]  }
+    }
 }
